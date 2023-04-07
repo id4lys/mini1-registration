@@ -1,0 +1,36 @@
+section {
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.505);
+  padding: 50px;
+  margin: 100px;
+  width: 500px;
+}
+h1 {
+  line-height: 100px;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+}
+div {
+  font-weight: bold;
+  line-height: 130%;
+  margin: 10px 0;
+}
+input {
+  padding: 9px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0;
+
+  background-color: skyblue;
+}
+#membernane {
+  width: 90%;
+  background-color: rgb(185, 218, 255);
+  color: black;
+}
+button {
+  background-color: green;
+  padding: 10px;
+  margin: 0px;
+  width: 500px;
+}

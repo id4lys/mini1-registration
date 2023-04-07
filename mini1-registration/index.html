@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+    <body>
+      <section>          
+      <h1>회원가입</h1>
+      <form action="">
+        <div>
+          <label for="first" >이름</label>
+          <input type="text" id="first" name="firstname"  />
+        </div>
+        <p>레벨선택</p>
+        <div>
+          <input type="radio" name="course" id="basic" value="basic"/>
+          <label for="basic">초급</label>
+        </div>
+        <div>
+          <input type="radio" name="course" id="mid" value="mid"/>
+          <label for="basic">중급</label>
+        </div>
+        <div>
+          <input type="radio" name="course" id="expert" value="expert"/>
+          <label for="basic">상급</label>
+        </div>
+        <div>
+          <label for="email">이메일</label>
+          <input type="email" name="email" id="email" required/>
+          <br>
+          <label for="password">패스워드</label>
+          <input type="password" name="password" id="password" required/>
+        </div>
+        <div>
+          <label for="division">관심분야</label>
+          <select name="division" id="division">
+            <option value="it">IT</option>
+            <option value="artandculture">문화예술</option>
+            <option value="education">교육</option>
+            <option value="government">정부</option>
+          </select>
+        </div>
+        
+       
+        <button>가입하기</button>
+       
+      </section>   
+    </body>
+  </html>
